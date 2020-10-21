@@ -55,7 +55,7 @@ Output the values of all of the tree’s nodes in order of the pre-order travers
 **Constraints**
 
 <img src="https://latex.codecogs.com/png.latex?1\leq\text{}N\leq10">
-<img src="https://latex.codecogs.com/png.latex?0\leq\text{}L_i,R_i<N\text{&space;}\forall0\leq\text{&space;}i<k">
+<img src="https://latex.codecogs.com/png.latex?0\leq\text{}L_i,R_i<N\text{&space;}\forall0\leq\text{&space;}i<N">
 
 
 **Sample Input**
