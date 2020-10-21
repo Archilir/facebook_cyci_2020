@@ -3,17 +3,18 @@ You've found an old calculator lying around (I mean **really** old). Its buttons
 
 Let's start by writing support for the **addition** and **subtraction** of **integers**. Input is fed to the calculator as a sequence of these integers, joined by addition and subtraction operators in infix notation (meaning each operator appears between its operands, as per usual).
 
-Your input file is a list of $N$ valid inputs to your calculator, each on their own line. Each input contains $k$ numbers interleaved with $k-1$ operators, all separated by spaces:
+Your input file is a list of <img src="https://latex.codecogs.com/png.latex?N"> valid inputs to your calculator, each on their own line. Each input contains <img src="https://latex.codecogs.com/png.latex?k"> numbers interleaved with <img src="https://latex.codecogs.com/png.latex?k-1"> operators, all separated by spaces:
 
-$X_{0}$ $o_{0}$ $X_{1}$ $o_{1}$ ... $o_{k-2}$ $X_{k-1}$
+<img src="https://latex.codecogs.com/png.latex?X_{0}\text{&space;}o_{0}\text{&space;}X_{1}\text{&space;}o_{1}\text{&space;...&space;}o_{k-2}\text{&space;}X_{k-1}">
 
 Output the answers to each expression in order, separated by spaces.
 
 **Constraints**
-$0 < N \leq 100$
-$0 < k \leq 10$
-$-2^{21} < X_{i} < 2^{21}$&nbsp;&nbsp;&nbsp;&nbsp;$\forall 0 \leq i < k$
-$o_{i} \in \{+,-\}$&nbsp;&nbsp;&nbsp;&nbsp;$\forall 0 \leq i < k - 1$
+
+<img src="https://latex.codecogs.com/png.latex?0<N\leq100">
+<img src="https://latex.codecogs.com/png.latex?0<k\leq10">
+<img src="https://latex.codecogs.com/png.latex?-2^{21}<X_{i}<2^{21}\text{&space;}\forall0\leq\text{&space;}i<k">
+<img src="https://latex.codecogs.com/png.latex?o_{i}\in\{+,-\}\text{&space;}\forall0\leq\text{&space;}i<k-1">
 
 **Sample Input**
 ```

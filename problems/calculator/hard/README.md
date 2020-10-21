@@ -5,31 +5,32 @@ Your calculator will now accept **an integer Y** then a space, followed by **a f
 
 For example, if we wanted to solve the equation
 
-$231 = (1 + 2) \times (X + 4) \times (5 + 6)$
+<img src="https://latex.codecogs.com/png.latex?231=(1+2)\times(X+4)\times(5+6)">
 
 we would input the following into the calculator:
 
 `231 * * + 1 2 + X 4 + 5 6`
 
-Again, your input is a list of $N$ calculator inputs, each on their own line. Each input starts with an integer $Y$, followed by an expression in prefix notation containing $2k-1$ terms: A single variable $X$, $k-1$ numbers,
+Again, your input is a list of <img src="https://latex.codecogs.com/png.latex?N"> calculator inputs, each on their own line. Each input starts with an integer <img src="https://latex.codecogs.com/png.latex?Y">, followed by an expression in prefix notation containing <img src="https://latex.codecogs.com/png.latex?2k-1"> terms: A single variable <img src="https://latex.codecogs.com/png.latex?X">, <img src="https://latex.codecogs.com/png.latex?k-1"> numbers,
 
-$X_{0}$ $X_{1}$ ... $X_{k-1}$
+<img src="https://latex.codecogs.com/png.latex?X_{0}\text{&space;}X_{1}\text{&space;...&space;}X_{k-1}">
 
-and $k - 1$ operators,
+and <img src="https://latex.codecogs.com/png.latex?k-1"> operators,
 
-$o_{0}$ $o_{1}$ ... $o_{k-2}$
+<img src="https://latex.codecogs.com/png.latex?o_{0}\text{&space;}o_{1}\text{&space;...&space;}o_{k-2}">
 
 all separated by spaces.
 
 Output the answers to each expression in order, separated by spaces.
 
 **Constraints**
-$0 < N \leq 100$
-$0 < k \leq 10$
-$-2^{63} < Y < 2^{63}$
-$-2^{21} < X < 2^{21}$
-$-2^{21} < X_{i} < 2^{21}$&nbsp;&nbsp;&nbsp;&nbsp;$\forall 0 \leq i < k$
-$o_{i} \in \{+,-,*\}$&nbsp;&nbsp;&nbsp;&nbsp;$\forall 0 \leq i < k - 1$
+
+<img src="https://latex.codecogs.com/png.latex?0<N\leq100">
+<img src="https://latex.codecogs.com/png.latex?0<k\leq10">
+<img src="https://latex.codecogs.com/png.latex?-2^{63}<Y<2^{63}">
+<img src="https://latex.codecogs.com/png.latex?-2^{21}<X<2^{21}">
+<img src="https://latex.codecogs.com/png.latex?-2^{21}<X_{i}<2^{21}\text{&space;}\forall0\leq\text{&space;}i<k">
+<img src="https://latex.codecogs.com/png.latex?o_{i}\in\{+,-,*\}\text{&space;}\forall0\leq\text{&space;}i<k-1">
 
 **Sample Input**
 ```
